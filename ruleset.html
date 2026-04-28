@@ -1,0 +1,78 @@
+<!--
+Objective:
+Develop a 4-page website, implementing the features and functionality described below
+using PHP 7 or 8 with MySQL.
+
+Requirements:
+1. Website Structure:
+o The website should consist of 4 pages:
+1. Home/Overview page
+2. About Us/Contact Us page
+3. Privacy Policy page
+4. Terms & Conditions page
+
+2. Mobile Responsiveness:
+- The website must be mobile-friendly across different devices and screen
+sizes.
+
+3. Privacy Consent:
+- Upon first visit to any page, a privacy consent box must appear.
+- The user must not be able to scroll the page until the consent box is
+addressed (either accepted or declined).
+
+4. Consent Box Content:
+- The consent box should display the following message:
+- "Cookies are necessary for this website to function properly, for
+performance measurement, and to provide you with the best
+experience."
+- "By continuing to access or use this site, you acknowledge and
+consent to our use of cookies in accordance with our [Terms &
+Conditions] and [Privacy Statement]."
+
+5. Linking Terms & Conditions and Privacy Policy:
+- The [Terms & Conditions] link should point to the Terms & Conditions
+page.
+- The [Privacy Statement] link should point to the Privacy Policy page.
+
+6. Consent Acceptance and Cookie Storage:
+- When the user accepts the consent box, the following actions must occur:
+ A cookie should be created containing the following information:
+ GUID (a unique identifier for the user)
+ Date & Time of consent acceptance
+ Version number of the consent box (use the number 1 for
+the initial version)
+ The cookie should expire 1 year after the acceptance date.
+ Store the GUID, date & time of acceptance, and version number in
+a database.
+
+7. Post-Consent:
+- After the user accepts the consent box, it should not appear again unless:
+ The cookie has expired.
+ The cookie is absent from the current browsing session.
+
+8. Declining Consent:
+- If the user declines the consent box, the following actions must occur:
+ A cookie should be created to track the date and time of the user's
+decline.
+ This cookie should expire after 1 day.
+ If the user visits the website again after the cookie has expired or is
+not present, the consent box should reappear.
+
+Recommended Optional Bonus Features:
+1. Backend Admin:
+o A secured backend portal with login credentials to view submitted consent
+acceptances
+
+Deliverables:
+ Full source code of the website, database scripts, and project solution should be
+provided either:
+o In a zip file or
+o Hosted in a source code repository (e.g., GitLab, GitHub)
+ A README file with detailed instructions on how to set up and run the project
+locally.
+
+Timeline:
+ Completion of the task is expected within 5 days from the date you receive this
+assignment
+-->
+Open this in notepad!
